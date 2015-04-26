@@ -1,0 +1,11 @@
+<ruleset name="Chesssube.com">
+
+	<target host=    "chesscube.com" />
+	<!-- 
+	<target host=  "chesscube.com" />
+	<target host="www.chesscube.com" />
+	-->
+
+	<rule from="^http:"
+		to="https:" />
+</ruleset>
